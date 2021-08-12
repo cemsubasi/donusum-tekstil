@@ -1,0 +1,32 @@
+.container {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../../images/bg_wave.png);
+	background-color: #e7e4f3;
+	background-position: bottom;
+	min-height: 600px;
+	box-sizing: border-box;
+}
+
+.text_container {
+	padding: 4rem 0;
+}
+
+.header {
+	text-align: center;
+	font-size: 2rem !important;
+}
+
+.p {
+}
+
+.background {
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		min-height: 40vh;
+	}
+}

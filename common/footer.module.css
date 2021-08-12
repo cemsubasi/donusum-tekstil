@@ -1,0 +1,57 @@
+.container {
+	height: 250px;
+	width: 100%;
+	display: flex;
+	background-color: gray;
+	padding: 4rem 0;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container div {
+	/* flex-grow: 1; */
+	color: white;
+	flex: 1 1 0px;
+}
+
+.categories {
+	text-align: center;
+}
+
+.categories h3 {
+	margin: 0;
+}
+
+.categories ul {
+	display: inline;
+	list-style-type: none;
+}
+
+.categories li {
+	margin: 1rem 0;
+}
+.container a:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+.input_header {
+	color: white !important;
+}
+
+.input_p {
+	margin: 2rem 0;
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		flex-direction: column;
+		height: 100%;
+	}
+
+	.form {
+		padding-top: 2rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
